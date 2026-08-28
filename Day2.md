@@ -15,7 +15,7 @@ I SSH'ed into the ubuntu instance via my computer's PowerShell with the username
 <img src="Images/SSH.png">
 <img src="Images/username_password.png">
 
-I updated the server with the relevant commands apt-get update && apt-get upgrade -y, downloaded Elasticsearch deb x86_64 using wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.5.2-amd64.deb installed it using dpkg -i elasticsearch-9.5.2-amd64.deb, after install it gave me the Security autoconfiguration information prompt with the password for my elastic user which I've chosen to omit.
+I **updated** the server with **apt-get update && apt-get upgrade -y**, **downloaded Elasticsearch deb x86_64** using **wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-9.5.2-amd64.deb** **installed it** using **dpkg -i elasticsearch-9.5.2-amd64.deb**, after install it gave me the **Security autoconfiguration information prompt with the password for my elastic user** which I've chosen to omit.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
