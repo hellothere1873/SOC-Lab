@@ -42,16 +42,21 @@ Generate an enrollment token for Elasticsearch nodes with
 
 ----------------------------------_--------------------------------------------------------------
 
- NOT starting on installation, please execute the following statements to configure elasticsearch service to start automatically using systemd
+**NOT starting on installation, please execute the following statements to configure elasticsearch service to start automatically using systemd**
+ 
  sudo systemctl daemon-reload
+ 
  sudo systemctl enable elasticsearch.service
  
- You can start elasticsearch service by executing
+ 
+**You can start elasticsearch service by executing**
+ 
  sudo systemctl start elasticsearch.service
+ 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Then I configured the Elasticsearch service with systemctl daemon-reload and enable elasticsearch.service and started it with systemctl start elasticsearch.service.
- 
+Then I configured the Elasticsearch service to **start automatically** with **systemctl daemon-reload** and **enable elasticsearch.service**, configured its **port to 5601** (that's the one it has in the yml file) and **localhost ip to the server's public ip** through the **elasticsearch.yml** file using nano to edit it. Then **started it** Elasticsearch with **systemctl start elasticsearch.service**.
+
 
 I then made a firewall group in which I specified that the only IP that can SSH into the server is my own.
 <img src="Images/Firewall_rule22_PUBLICIP.png">
