@@ -54,3 +54,4 @@ Then I configured the Elasticsearch service with systemctl daemon-reload and ena
  
 
 I then made a firewall group in which I specified that the only IP that can SSH into the server is my own.
+<img src="Images/Firewall_rule22_PUBLICIP.png">
