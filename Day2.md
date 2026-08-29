@@ -55,7 +55,7 @@ Generate an enrollment token for Elasticsearch nodes with
  
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Then I configured the Elasticsearch service to **start automatically** with **systemctl daemon-reload** and **enable elasticsearch.service**, configured **localhost ip to the server's public ip** through the **elasticsearch.yml** file using nano to edit it. Then **started** Elasticsearch with **systemctl start elasticsearch.service**.
+Then I configured the Elasticsearch service to **start automatically** with **systemctl daemon-reload** and **enable elasticsearch.service**, configured **localhost ip to the server's public ip** through the **elasticsearch.yml** file using nano to edit it, **default port is 9600 and it doesn't need to be open to the internet for Elasticsearch to function**. Then **started** Elasticsearch with **systemctl start elasticsearch.service**.
 
 
 I then made a firewall group in which I specified that the only IP that can SSH into the server is my own.
