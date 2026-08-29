@@ -1,4 +1,4 @@
-I set up kibana very similarly to elasticsearch, copy paste link from download website use wget and dpkg -i to download it.
+I set up kibana very similarly to elasticsearch, copy paste link from download website use wget and dpkg -i to download and install it.
 
 
 Set a new firewall group from vultr to **allow in every TCP port from 1:65535** that comes from **my public IP ONLY**, I did not open every port to the internet. 
