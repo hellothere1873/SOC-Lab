@@ -19,6 +19,10 @@ Then it asked for a **verification code from the kibana-verification-code.bat fi
 Lastly I **set up kibana's encryption keys** by generating them using **./kibana-encryption-keys generate** in turn it gave me 3 keys which I had to **insert to the kibana keystore** using **./kibana-keystore add (Name of key) (Key)**.
 
 The names of the keys, keys ommited
+
 xpack.encryptedSavedObjects.encryptionKey
+
 xpack.reporting.encryptionKey
+
 xpack.security.encryptionKey
+
