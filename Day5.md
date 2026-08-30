@@ -6,6 +6,6 @@ allowed the fleet to access the elk server and more specifically 9200 elasticsea
 
 
 
-I specified the fleet server url in the settings tab of the fleet in the elasticsearch gui and more specifically the port 8220 https://fleetserverIP:8220 that's the default for agents and it kibana had autoconfigured it to https 443 so I had to change it.
+I specified the fleet server url in the settings tab of the fleet in the elasticsearch gui and more specifically the port 8220 https://fleetserverIP:8220 that's the default for agents and kibana had autoconfigured it to https 443 so I had to change it.
 
 I set ufw allow 8220 for the fleet server and allowed the 
