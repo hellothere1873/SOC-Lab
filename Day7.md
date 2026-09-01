@@ -23,3 +23,6 @@ Here's me adding them to the windows defender integration.
 
 <img src="Images/IntegrationPolicyDay7.png">
 I added the integration to my windows-policy in Elasticsearch.
+
+<img src="Images/ResultDay7.png">
+Now I am able to view all the logs that interest me using the winlog.event_id:* term in the search bar. That's day 7. 
