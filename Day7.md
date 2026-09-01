@@ -16,7 +16,7 @@ For windows defender integration I did pretty much the same thing but this time 
 <img src="Images/1117idDay7.png">
 <img src="Images/5001idDay7.png">
 
-Those are the ones I considered the most important.
+Those are the ones I want to initially start with.
 
 <img src="Images/EventIDsDay7.png">
 Here's me adding them to the windows defender integration.
