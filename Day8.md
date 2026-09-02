@@ -16,11 +16,11 @@ Installed and enrolled the elastic agent in the ubuntu-server, I did face the sa
 <img src="Images/ubuntuelasticagentinstallenrollday8.png">
 
 After a few restarts of the ubuntu-server and also allowing port 9200 under the ubuntu-server IP through the ELK-stack-server firewall via Vultr, I am able to get logs of the ubuntu-server through Elasticsearch successfully.
-<img src="Image/niceandenrolledubuntuday8.png">
+<img src="Images/niceandenrolledubuntuday8.png">
 
 I booted up my ssh and looked for unsuccessful logging attempts with the grep command in the auth.log file nabbed the first IP and run it through Elasticsearch and they match meaning that my Elasticsearch works correctly.
-<img src="Image/bruteforceattemptsDay8.png">
+<img src="Images/bruteforceattemptsDay8.png">
 
-<img src="Image/bruteforceIPcheckDay8.png">
+<img src="Images/bruteforceIPcheckDay8.png">
 
 I am a little on edge about the countless brute force attempts on my machines, but even if they somehow get lucky enough to nab a machine I can just destroy the instance through Vultr and again in theory my private machine can't be accessed as I am not running any public services through it and also router firewall. 
