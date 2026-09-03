@@ -22,7 +22,7 @@ And then I added failed and successful authentication attempts on the SSH ubuntu
 
 
 
-Out of curiosity I checked to see which country has the most of these attacks and surprise surprise it's China with the UK at a close second which was actually surprising.
+Out of curiosity I checked to see which country has the most of these attacks and it's China with the UK at a close second which was surprising.
 
 <img src="Images/topbruteforcersDay9.png">
 
