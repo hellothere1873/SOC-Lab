@@ -23,3 +23,5 @@ Fortunately it didn't take long at all.
 
 <img src="Images/AlertsDay10.png">
 
+For some reason the windows-server alerts took a bit of fiddling to get working but in the end I got it work.
+<img src="Images/windowsalertsDay10.png">
