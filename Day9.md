@@ -1,6 +1,5 @@
 
-I set up a dashboard on the Elasticsearch GUI of my ELK Stack server for failed and successful authentication attempts on the ubuntu SSH enabled server
-
+I set up a dashboard on the Elasticsearch GUI of my ELK Stack server for failed and successful authentication attempts on the ubuntu SSH enabled server and for the RDP server as well.
 
 I used this filter.
 
