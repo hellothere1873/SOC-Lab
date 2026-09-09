@@ -41,7 +41,7 @@ I then received a call back from the mythic-server GUI which told me that the pa
 
 # Phase 5 Exfiltration
 
-I just run the download command to grab the flag I setup previously passwords.txt.
+I just run the download command to grab the flag I set up previously(passwords.txt).
 
 
 
