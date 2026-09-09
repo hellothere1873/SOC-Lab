@@ -57,7 +57,7 @@ The payload is supposed to let me run commands from my mythic-server gui remotel
 
 I then used the mythic-server to run a http.server on port 9999 after I used ufw allow 9999 and 80 for the services to run properly.
 
-I only realized about trying to allow port 80, when I did netstat -anob and saw that apollo.exe was trying to connect to mythic and it couldn't even(It was showing SYN-SENT) after port allow 9999 so I turned that on too and it worked.
+I only realized about trying to allow port 80, when I did netstat -anob and saw that apollo.exe was trying to connect to mythic and it couldn't even(It was showing SYN-SENT) after port allow 9999 so I turned that on too and it worked. (To clarify port 80 is needed for the C2 profile due to it being the callback port for the http C2 profile and port 9999 is for the temporary python server.)
 
 <img src="Images/CensorConnectionnotenstablishedDay14.png">
 <img src="Images/CensorConnectionEstablishedDay14.png">
