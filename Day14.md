@@ -27,7 +27,7 @@ ipconfig = to view the instance's own IP and subnet mask, but also the default g
 
 net user = to see if there is other accounts on the instance, I didn't make any .
 
-net group = to see all the groups of the local server, again none I didn't make any, but I wouldn't be able to view them anyway due to the limitation of permissions.
+net group = to see all the domain groups of the local server, again none I didn't make any, but I wouldn't be able to view them anyway due to the limitation of permissions.
 
 
 
