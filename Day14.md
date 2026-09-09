@@ -22,15 +22,20 @@ I run the discovery commands of the diagram in PowerShell.
 <img src="Images/DiscoveryCommandsDay14.png">
 
 whoami = to view my privileges.
+
 ipconfig = to view the instance's own IP and subnet mask, but also the default gateway.
+
 net user = to see if there is other accounts on the instance, I didn't make any .
+
 net group = to see all the groups of the local server, again none I didn't make any, but I wouldn't be able to view them anyway due to the limitation of permissions.
+
 
 
 
 # Phase 3 Detection Evasion
 
 I just turned off real time protection nothing fancy just turning switches off in the GUI.
+
 <img src="Images/DefenseEvasionDay14.png">
 
 
@@ -49,8 +54,11 @@ I created a payload through mythic that uses apollo as the payload and http as t
 <img src="Images/SelectedC2profileDay14.png">
 
 The payload is supposed to let me run commands from my mythic-server gui remotely.
+
 I then used the mythic-server to run a http.server on port 9999 after I used ufw allow 9999 and 80 for the services to run properly.
-I only realized about trying to allow port 80, when I did netstat -anob and saw that apollo.exe was trying to connect to mythic and it couldn't even(It was showing SYN-ACK) after port allow 9999 so I turned that on too and it worked.
+
+I only realized about trying to allow port 80, when I did netstat -anob and saw that apollo.exe was trying to connect to mythic and it couldn't even(It was showing SYN-SENT) after port allow 9999 so I turned that on too and it worked.
+
 <img src="Images/CensorConnectionnotenstablishedDay14.png">
 <img src="Images/CensorConnectionEstablishedDay14.png">
 <img src="Images/ufwallow80Day14.png">
@@ -70,8 +78,10 @@ I then received a call back from the mythic-server GUI which told me that the pa
 # Phase 5 Exfiltration
 
 I just run the download command to grab the flag I set up previously(passwords.txt).
+
 <img src="Images/MythicdownloadfilecommandDay14.png">
 <img src="Images/Mythicendresult14.png">
 
+not the actual password.
 
 
