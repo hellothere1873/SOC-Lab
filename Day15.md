@@ -2,11 +2,11 @@ I created 3 dashboards to check on the telemetry my Apollo C2 agent that I creat
 
 The dashboards.
 
-<img src="Images/">
+<img src="Images/ProcesscreatedDay15.png">
 
-<img src="Images/">
+<img src="Images/NetworkProcessInitiatedCENSORDay15.png">
 
-<img src="Images/">
+<img src="Images/MicrosoftdefenderdisabledDay15.png">
 
 
 
